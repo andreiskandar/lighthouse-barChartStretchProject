@@ -6,8 +6,6 @@ import {
   drawBarChart,
 } from "./chart.js";
 
-//drawBarChart(dataset, option, element)
-
 drawBarChart(
   [
     ["Option 1", 1],
@@ -26,6 +24,7 @@ drawBarChart(
   ".row1"
 );
 
+//drawBarChart(dataset, option, element)
 drawBarChart(
   [
     ["Tesla Model 3", 322],
