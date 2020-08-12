@@ -47,3 +47,15 @@ Font Colour
 ![chart2](https://user-images.githubusercontent.com/56459037/89959683-df68a580-dbf1-11ea-9430-b7e5d10c6e7f.png)
 
 ![chart 1](https://user-images.githubusercontent.com/56459037/89959465-505b8d80-dbf1-11ea-9b3e-f04ba2e383ce.png)
+
+### Resources
+https://github.com/d3/d3/blob/master/API.md
+
+https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Introduction
+
+http://blocks.org/ejb/774b87bf0f7482599419d1e7da9ed918
+
+https://www.codeproject.com/Articles/15821/HTML-Vertical-Bar-Chart 
+
+https://css-tricks.com/making-charts-with-css/
+
