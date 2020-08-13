@@ -43,10 +43,12 @@ The title of the bar chart should also be customizable:
 
 Font Size
 Font Colour 
+![chart 1](https://user-images.githubusercontent.com/56459037/89959465-505b8d80-dbf1-11ea-9b3e-f04ba2e383ce.png)
 
 ![chart2](https://user-images.githubusercontent.com/56459037/89959683-df68a580-dbf1-11ea-9430-b7e5d10c6e7f.png)
 
-![chart 1](https://user-images.githubusercontent.com/56459037/89959465-505b8d80-dbf1-11ea-9b3e-f04ba2e383ce.png)
+![Screenshot from 2020-08-12 20-03-14](https://user-images.githubusercontent.com/56459037/90089723-f1704400-dcd6-11ea-8ffa-a516dba9611f.png)
+
 
 ### Resources
 https://github.com/d3/d3/blob/master/API.md
