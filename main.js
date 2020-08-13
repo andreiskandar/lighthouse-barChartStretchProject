@@ -4,15 +4,15 @@ import {
   yTicksToLi,
   addStyle,
   drawBarChart,
-} from "./chart.js";
+} from "./app.js";
 
 drawBarChart(
   [
-    ["Option 1", 1],
-    ["Option 2", 2],
-    ["Option 3", 3],
-    ["Option 4", 4],
-    ["Option 5", 5],
+    ["Option_1", 1],
+    ["Option_2", 2],
+    ["Option_3", 3],
+    ["Option_4", 4],
+    ["Option_5", 5],
   ],
   {
     title: "Bar Chart 1",
@@ -21,48 +21,48 @@ drawBarChart(
     barWidth: 40,
     barColor: "#519b64",
   },
-  ".row1"
+  ".chart1"
 );
 
-//drawBarChart(dataset, option, element)
+// drawBarChart(dataset, option, element);
 drawBarChart(
   [
-    ["Tesla Model 3", 322],
-    ["Tesla Model X", 351],
-    ["Tesla Model S", 348],
-    ["Nissan LEAF", 220],
-    ["Audi e-tron", 204],
-    ["BMW i3", 153],
-    ["Chevy Bolt", 259],
+    ["Tesla_Model_3", 322],
+    ["Tesla_Model_X", 351],
+    ["Tesla_Model_S", 348],
+    ["Nissan_LEAF", 220],
+    ["Audi_e-tron", 204],
+    ["BMW_i3", 153],
+    ["Chevy_Bolt", 259],
   ],
   {
     title: "EV Sales in 2019",
     width: 600,
-    height: 300,
+    height: 600,
     barWidth: 40,
     barColor: "#40aaaa",
   },
-  ".row2"
+  ".chart2"
 );
 
-// drawBarChart(
-//   [
-//     ['FY19 Q4', 33.362, 4.65, 6.99, 12.51, 6.52],
-//     ['FY20 Q1', 55.95, 5.977, 7.16, 12.715, 10.01],
-//     ['FY20 Q2', 28.962, 4.368, 5.351, 13.348, 6.284],
-//     ['FY20 Q3', 26.418, 6.582, 7.079, 13.156, 6.45]
-//   ],
-//   {
-//     title: 'Apple Revenue Segments',
-//     width: 500,
-//     height: 500,
-//     barWidth: 40,
-//     barColor: '#3271a8',
-//     iphone: '#3271a8',
-//     ipad: '#a85132',
-//     mac: '#c4b43b',
-//     services: '#3bc464',
-//     other: '#923fbf'
-//   },
-//   '.row3'
-// );
+drawBarChart(
+  [
+    ["FY19Q4", 33.36, 4.65, 6.99, 12.51, 6.52],
+    ["FY20Q1", 55.95, 5.98, 7.16, 12.72, 10.01],
+    ["FY20Q2", 28.96, 4.37, 5.35, 13.35, 6.29],
+    ["FY20Q3", 26.42, 6.58, 7.08, 13.16, 6.45],
+  ],
+  {
+    title: "Apple Revenue Segments",
+    width: 500,
+    height: 500,
+    barWidth: 40,
+    iphone: "#3271a8",
+    ipad: "#a85132",
+    mac: "#c4b43b",
+    services: "#3bc464",
+    other: "#923fbf",
+    legend: true,
+  },
+  ".chart3"
+);

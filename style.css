@@ -1,0 +1,38 @@
+body {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+
+  color: #dafafa;
+  background: #4b444f;
+}
+
+img {
+  width: 60%;
+  height: auto;
+}
+
+.colWrapper {
+  align-content: center;
+  position: relative;
+  align-self: center;
+}
+
+span {
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+dl {
+  width: 500px;
+  border: 1px solid grey;
+}
+
+dd,
+dt {
+  display: inline;
+}
